@@ -1,0 +1,8 @@
+<<MINECRAFT DEMO>>
+This program was written by yours trully about a month ago.
+It displays a unique, randomly generated block assortment
+resembling a layered view of a minecraft world.
+<<THINGS TO LEARN>>
+ - Use of Random object from Java core library
+ - Use of 2D Arrays to store information
+ - Use of a game loop

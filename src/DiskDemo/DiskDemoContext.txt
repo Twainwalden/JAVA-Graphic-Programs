@@ -1,0 +1,8 @@
+<<DISK DEMO>>
+This program was my very first solo programming project.
+It displays a DVD Video sprite that bounces diagonally
+and occasionally hits the very corner of the screen.
+<<THINGS TO LEARN>>
+ - Use of enum class
+ - Class/Object instantiation
+ - Sprite usage

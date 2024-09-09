@@ -1,0 +1,273 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MoonriseVector",
+            "request": "launch",
+            "mainClass": "SunriseDemo.MoonriseVector",
+            "projectName": "JAVA_1b1dc734"
+        },
+        {
+            "type": "java",
+            "name": "TV",
+            "request": "launch",
+            "mainClass": "DiskDemo.TV",
+            "projectName": "JAVA_1b1dc734"
+        },
+        {
+            "type": "java",
+            "name": "BlockDisplay",
+            "request": "launch",
+            "mainClass": "MinecraftDemo.BlockDisplay",
+            "projectName": "JAVA_1b1dc734"
+        },
+        {
+            "type": "java",
+            "name": "MoonriseVector",
+            "request": "launch",
+            "mainClass": "SunriseDemo.MoonriseVector",
+            "projectName": "Coding_b7141ba8"
+        },
+        {
+            "type": "java",
+            "name": "BlockDisplay",
+            "request": "launch",
+            "mainClass": "MinecraftDemo.BlockDisplay",
+            "projectName": "Coding_b7141ba8"
+        },
+        {
+            "type": "java",
+            "name": "TV",
+            "request": "launch",
+            "mainClass": "DiskDemo.TV",
+            "projectName": "Coding_b7141ba8"
+        },
+        {
+            "type": "java",
+            "name": "TV",
+            "request": "launch",
+            "mainClass": "DiskDemo.TV",
+            "projectName": "Programming_9229bf5b"
+        },
+        {
+            "type": "java",
+            "name": "MoonriseVector",
+            "request": "launch",
+            "mainClass": "SunriseDemo.MoonriseVector",
+            "projectName": "Programming_9229bf5b"
+        },
+        {
+            "type": "java",
+            "name": "BlockDisplay",
+            "request": "launch",
+            "mainClass": "MinecraftDemo.BlockDisplay",
+            "projectName": "Programming_9229bf5b"
+        },
+        {
+            "type": "java",
+            "name": "BlockDisplay",
+            "request": "launch",
+            "mainClass": "visuals.LjucasJavaDemo03.BlockDisplay",
+            "projectName": "Programming_9229bf5b"
+        },
+        {
+            "type": "java",
+            "name": "BlockDisplay",
+            "request": "launch",
+            "mainClass": "visuals.minecraft.BlockDisplay",
+            "projectName": "Programming_9229bf5b"
+        },
+        {
+            "type": "java",
+            "name": "BlockDisplay",
+            "request": "launch",
+            "mainClass": "visuals.minecraft.version1.BlockDisplay",
+            "projectName": "Programming_9229bf5b"
+        },
+        {
+            "type": "java",
+            "name": "TV",
+            "request": "launch",
+            "mainClass": "visuals.TV.TV",
+            "projectName": "Programming_9229bf5b"
+        },
+        {
+            "type": "java",
+            "name": "MoonriseVector",
+            "request": "launch",
+            "mainClass": "visuals.MoonriseVector.MoonriseVector",
+            "projectName": "Programming_9229bf5b"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "demo.HelloWorld",
+            "projectName": "Programming_e39ba666"
+        },
+        {
+            "type": "java",
+            "name": "Minecraft",
+            "request": "launch",
+            "mainClass": "visuals.minecraft.version2.Minecraft",
+            "projectName": "Programming_e39ba666"
+        },
+        {
+            "type": "java",
+            "name": "BlockDisplay",
+            "request": "launch",
+            "mainClass": "visuals.minecraft.version1.BlockDisplay",
+            "projectName": "Programming_e39ba666"
+        },
+        {
+            "type": "java",
+            "name": "BlockDisplay",
+            "request": "launch",
+            "mainClass": "visuals.minecraft.BlockDisplay",
+            "projectName": "Programming_e39ba666"
+        },
+        {
+            "type": "java",
+            "name": "LebronJamesMax",
+            "request": "launch",
+            "mainClass": "visuals.shitpost.LebronJamesMax",
+            "projectName": "Programming_e39ba666"
+        },
+        {
+            "type": "java",
+            "name": "Shitpost",
+            "request": "launch",
+            "mainClass": "visuals.shitpost.Shitpost",
+            "projectName": "Programming_e39ba666"
+        },
+        {
+            "type": "java",
+            "name": "Shitpost",
+            "request": "launch",
+            "mainClass": "visuals.Shitpost.Shitpost",
+            "projectName": "Programming_e39ba666"
+        },
+        {
+            "type": "java",
+            "name": "MoonriseVector",
+            "request": "launch",
+            "mainClass": "visuals.MoonriseVector.MoonriseVector",
+            "projectName": "Programming_e39ba666"
+        },
+        {
+            "type": "java",
+            "name": "SoundDemo",
+            "request": "launch",
+            "mainClass": "demo.SoundDemo",
+            "projectName": "Programming_e39ba666"
+        },
+        {
+            "type": "java",
+            "name": "TV",
+            "request": "launch",
+            "mainClass": "visuals.TV.TV",
+            "projectName": "Programming_e39ba666"
+        },
+        {
+            "type": "java",
+            "name": "FormatDemo",
+            "request": "launch",
+            "mainClass": "demo.FormatDemo",
+            "projectName": "Programming_e39ba666"
+        },
+        {
+            "type": "java",
+            "name": "Conway",
+            "request": "launch",
+            "mainClass": "labs.lab09.Conway",
+            "projectName": "CS159_8bc84908"
+        },
+        {
+            "type": "java",
+            "name": "GameDriver",
+            "request": "launch",
+            "mainClass": "hws.hw8.GameDriver",
+            "projectName": "CS159_8bc84908"
+        },
+        {
+            "type": "java",
+            "name": "Gallery",
+            "request": "launch",
+            "mainClass": "hws.hw7.Gallery",
+            "projectName": "CS159_8bc84908"
+        },
+        {
+            "type": "java",
+            "name": "MartDriver",
+            "request": "launch",
+            "mainClass": "labs.lab07.MartDriver",
+            "projectName": "CS159_8bc84908"
+        },
+        {
+            "type": "java",
+            "name": "PlayScrabble2",
+            "request": "launch",
+            "mainClass": "hws.hw6.PlayScrabble2",
+            "projectName": "CS159_8bc84908"
+        },
+        {
+            "type": "java",
+            "name": "IMDb",
+            "request": "launch",
+            "mainClass": "IMDb",
+            "projectName": "CS159_8bc84908"
+        },
+        {
+            "type": "java",
+            "name": "ScannerDemo",
+            "request": "launch",
+            "mainClass": "ScannerDemo",
+            "projectName": "CS159_8bc84908"
+        },
+        {
+            "type": "java",
+            "name": "Model2",
+            "request": "launch",
+            "mainClass": "acts.act1.Model2",
+            "projectName": "CS159_8bc84908"
+        },
+        {
+            "type": "java",
+            "name": "BakingBread",
+            "request": "launch",
+            "mainClass": "hws.hw1.BakingBread",
+            "projectName": "CS159_8bc84908"
+        },
+        {
+            "type": "java",
+            "name": "MadisonQuotes",
+            "request": "launch",
+            "mainClass": "hws.hw1.MadisonQuotes",
+            "projectName": "CS159_8bc84908"
+        },
+        {
+            "type": "java",
+            "name": "FightSong",
+            "request": "launch",
+            "mainClass": "hws.hw1.FightSong",
+            "projectName": "CS159_8bc84908"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "shortenCommandLine": "none",
+            "stepFilters": {
+                "skipClasses": [
+                    "$JDK",
+                    "$Libraries"
+                ],
+                "skipSynthetics": false,
+                "skipStaticInitializers": false,
+                "skipConstructors": false
+            }
+        }
+    ]
+}

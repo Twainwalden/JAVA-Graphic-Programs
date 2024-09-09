@@ -1,0 +1,9 @@
+<<SUNRISE DEMO>>
+This was a fun little project in which I explored the Use
+of player input on a small scale. It displays a sun/moon
+cycle that can be paused with the space bar or sped up or
+slowed down with arrow keys.
+<<THINGS TO LEARN>>
+ - Small scale inheritance
+ - Abstract classes
+ - Math module usage

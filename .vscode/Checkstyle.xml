@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+    "-//Checkstyle//DTD Checkstyle Configuration 1.3//EN"
+    "https://checkstyle.org/dtds/configuration_1_3.dtd">
+
+<!--
+Checkstyle 10.12 configuration for CS 159, Spring 2024.
+-->
+<module name="Checker">
+    <property name="severity" value="warning"/>
+
+    <!-- See https://checkstyle.org/config.html#TreeWalker -->
+    <module name="TreeWalker">
+
+        <!-- See https://checkstyle.org/checks/annotation/ -->
+        <module name="AnnotationLocation"/>
+        <module name="AnnotationUseStyle"/>
+
+        <!-- See https://checkstyle.org/checks/blocks/ -->
+        <module name="AvoidNestedBlocks"/>
+        <module name="EmptyBlock"/>
+        <module name="EmptyCatchBlock"/>
+        <module name="LeftCurly"/>
+        <module name="NeedBraces"/>
+        <module name="RightCurly"/>
+
+        <!-- See https://checkstyle.org/checks/design/ -->
+        <module name="VisibilityModifier">
+            <property name="protectedAllowed" value="true"/>
+        </module>
+
+        <!-- See https://checkstyle.org/checks/coding/ -->
+        <module name="AvoidDoubleBraceInitialization"/>
+        <module name="AvoidNoArgumentSuperConstructorCall"/>
+        <module name="DeclarationOrder"/>
+        <module name="DefaultComesLast"/>
+        <module name="EmptyStatement"/>
+        <module name="FallThrough"/>
+        <module name="InnerAssignment"/>
+        <module name="ModifiedControlVariable"/>
+        <module name="MultipleVariableDeclarations"/>
+        <module name="OneStatementPerLine"/>
+        <module name="ParameterAssignment"/>
+        <module name="RequireThis"/>
+        <module name="SimplifyBooleanExpression"/>
+        <module name="SimplifyBooleanReturn"/>
+        <module name="StringLiteralEquality"/>
+
+        <!-- See https://checkstyle.org/checks/imports/ -->
+        <module name="AvoidStarImport">
+            <property name="excludes" value="org.junit.jupiter.api.Assertions,org.junit.Assert"/>
+        </module>
+        <module name="AvoidStaticImport">
+            <property name="excludes" value="org.junit.jupiter.api.Assertions.*,org.junit.Assert.*"/>
+        </module>
+        <module name="IllegalImport"/>
+        <module name="RedundantImport"/>
+        <module name="UnusedImports"/>
+
+        <!-- See https://checkstyle.org/checks/javadoc/ -->
+        <module name="AtclauseOrder"/>
+        <module name="InvalidJavadocPosition"/>
+        <module name="JavadocBlockTagLocation"/>
+        <module name="JavadocContentLocation"/>
+        <module name="JavadocMethod"/>
+        <module name="JavadocMissingLeadingAsterisk"/>
+        <module name="JavadocMissingWhitespaceAfterAsterisk"/>
+        <module name="JavadocStyle"/>
+        <module name="JavadocType">
+           <property name="authorFormat" value="\S"/>
+           <property name="versionFormat" value="\S"/>
+        </module>
+        <module name="MissingJavadocMethod">
+            <property name="scope" value="private"/>
+            <property name="allowMissingPropertyJavadoc" value="true"/>
+        </module>
+        <module name="MissingJavadocType">
+            <property name="scope" value="private"/>
+        </module>
+        <module name="NonEmptyAtclauseDescription"/>
+        <module name="RequireEmptyLineBeforeBlockTagGroup"/>
+        <module name="SummaryJavadocCheck"/>
+
+        <!-- See https://checkstyle.org/checks/misc/ -->
+        <module name="ArrayTypeStyle"/>
+        <module name="CommentsIndentation"/>
+        <module name="Indentation"/>
+        <property name="tabWidth" value="4"/>
+        <module name="OuterTypeFilename"/>
+        <module name="UpperEll"/>
+
+        <!-- See https://checkstyle.org/checks/modifier/ -->
+        <module name="ModifierOrder"/>
+        <module name="RedundantModifier"/>
+
+        <!-- See https://checkstyle.org/checks/naming/ -->
+        <module name="CatchParameterName"/>
+        <module name="ConstantName"/>
+        <module name="IllegalIdentifierName"/>
+        <module name="LocalFinalVariableName"/>
+        <module name="LocalVariableName"/>
+        <module name="MemberName"/>
+        <module name="MethodName"/>
+        <module name="ParameterName"/>
+        <module name="StaticVariableName"/>
+        <module name="TypeName"/>
+
+        <!-- See https://checkstyle.org/checks/regexp/ -->
+        <module name="Regexp">
+            <property name="format" value=" //[^ ]"/>
+            <property name="illegalPattern" value="true"/>
+            <message key="illegal.regexp" value="missing space after ''//'' in comment."/>
+        </module>
+
+        <!-- See https://checkstyle.org/checks/sizes/ -->
+        <module name="MethodLength"/>
+
+        <!-- See https://checkstyle.org/checks/whitespace/ -->
+        <module name="EmptyLineSeparator">
+            <property name="allowNoEmptyLineBetweenFields" value="true"/>
+        </module>
+        <module name="GenericWhitespace"/>
+        <module name="MethodParamPad"/>
+        <module name="NoWhitespaceAfter"/>
+        <module name="NoWhitespaceBefore"/>
+        <module name="NoWhitespaceBeforeCaseDefaultColon"/>
+        <module name="OperatorWrap"/>
+        <module name="ParenPad"/>
+        <module name="SeparatorWrap"/>
+        <module name="TypecastParenPad"/>
+        <module name="WhitespaceAfter"/>
+        <module name="WhitespaceAround"/>
+
+    </module>
+
+    <!-- See https://checkstyle.org/checks/sizes/ -->
+    <module name="FileLength"/>
+    <module name="LineLength"/>
+
+    <!-- See https://checkstyle.org/checks/whitespace/ -->
+    <module name="FileTabCharacter"/>
+
+    <!-- https://checkstyle.org/filefilters/ -->
+    <module name="BeforeExecutionExclusionFileFilter">
+        <property name="fileNamePattern" value="(.*Test|Test.*)\.java$"/>
+    </module>
+
+</module>

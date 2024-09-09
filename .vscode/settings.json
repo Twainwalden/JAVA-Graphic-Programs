@@ -1,0 +1,35 @@
+{
+    "breadcrumbs.enabled": false,
+    "editor.codeLens": false,
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "editor.minimap.enabled": false,
+    "editor.scrollBeyondLastLine": false,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "terminal.integrated.allowChords": false,
+    "workbench.tree.indent": 16,
+    "java.checkstyle.configuration": "${workspaceFolder}/.vscode/Checkstyle.xml",
+    "java.debug.settings.stepping.skipClasses": [
+        "$JDK",
+        "$Libraries"
+    ],
+    "java.format.settings.url": ".vscode/Formatter.xml",
+    "java.project.sourcePaths": [
+        "src"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+    "java.test.config": {
+        "name": "jacoco",
+        "vmargs": [
+            "-javaagent:${workspaceFolder}/lib/org.jacoco.agent-0.8.8-runtime.jar=destfile=bin/jacoco.exec,append=false"
+        ],
+        "workingDirectory": "${workspaceFolder}",
+        "postDebugTask": "Update jacoco.xml"
+    },
+    "coverage-gutters.showGutterCoverage": false,
+    "coverage-gutters.showLineCoverage": true
+}
